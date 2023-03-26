@@ -16,7 +16,10 @@ class Auto:
             self.nopeus = 0
 
     # KULJE METODI
-    def kulje(self):
+    def kulje(self, tunti):
+        tunti = self.kuljettu_matka += self.nopeus * tunti
+
+
 
 
 
